@@ -21,7 +21,7 @@
 		055F5B391ACB029D00B0B500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055F5B371ACB029D00B0B500 /* Main.storyboard */; };
 		055F5B3B1ACB029D00B0B500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055F5B3A1ACB029D00B0B500 /* Images.xcassets */; };
 		055F5B3E1ACB029D00B0B500 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 055F5B3C1ACB029D00B0B500 /* LaunchScreen.xib */; };
-		055F5B4A1ACB029E00B0B500 /* TindergramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F5B491ACB029E00B0B500 /* TindergramTests.swift */; };
+		055F5B4A1ACB029E00B0B500 /* LuvCurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F5B491ACB029E00B0B500 /* LuvCurTests.swift */; };
 		055F5B551ACB031800B0B500 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F5B541ACB031800B0B500 /* CardView.swift */; };
 		055F5B571ACB0A4800B0B500 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F5B561ACB0A4800B0B500 /* SwipeView.swift */; };
 		055F5B5A1ACB0D8300B0B500 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F5B591ACB0D8300B0B500 /* CardsViewController.swift */; };
@@ -63,16 +63,16 @@
 		055EADFA1AE6B9A500D153C6 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
 		055EADFC1AE6B9D900D153C6 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		055EADFE1AE6BCF800D153C6 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
-		055F5B2E1ACB029D00B0B500 /* Tindergram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tindergram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		055F5B2E1ACB029D00B0B500 /* LuvCur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvCur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		055F5B321ACB029D00B0B500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		055F5B331ACB029D00B0B500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		055F5B351ACB029D00B0B500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		055F5B381ACB029D00B0B500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		055F5B3A1ACB029D00B0B500 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		055F5B3D1ACB029D00B0B500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		055F5B431ACB029E00B0B500 /* TindergramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TindergramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		055F5B431ACB029E00B0B500 /* LuvCurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuvCurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		055F5B481ACB029E00B0B500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		055F5B491ACB029E00B0B500 /* TindergramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TindergramTests.swift; sourceTree = "<group>"; };
+		055F5B491ACB029E00B0B500 /* LuvCurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvCurTests.swift; sourceTree = "<group>"; };
 		055F5B541ACB031800B0B500 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		055F5B561ACB0A4800B0B500 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		055F5B591ACB0D8300B0B500 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 		055F5B251ACB029D00B0B500 = {
 			isa = PBXGroup;
 			children = (
-				055F5B301ACB029D00B0B500 /* Tindergram */,
-				055F5B461ACB029E00B0B500 /* TindergramTests */,
+				055F5B301ACB029D00B0B500 /* LuvCur */,
+				055F5B461ACB029E00B0B500 /* LuvCurTests */,
 				055F5B2F1ACB029D00B0B500 /* Products */,
 				E55D7637129ADB0783CD9E90 /* Pods */,
 				064A7FF44B8588E837E3D18D /* Frameworks */,
@@ -155,13 +155,13 @@
 		055F5B2F1ACB029D00B0B500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				055F5B2E1ACB029D00B0B500 /* Tindergram.app */,
-				055F5B431ACB029E00B0B500 /* TindergramTests.xctest */,
+				055F5B2E1ACB029D00B0B500 /* LuvCur.app */,
+				055F5B431ACB029E00B0B500 /* LuvCurTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		055F5B301ACB029D00B0B500 /* Tindergram */ = {
+		055F5B301ACB029D00B0B500 /* LuvCur */ = {
 			isa = PBXGroup;
 			children = (
 				055F5B331ACB029D00B0B500 /* AppDelegate.swift */,
@@ -174,6 +174,7 @@
 				055F5B311ACB029D00B0B500 /* Supporting Files */,
 				05D14E0E1AD6DAED00754A06 /* Frameworks */,
 			);
+			name = LuvCur;
 			path = Tindergram;
 			sourceTree = "<group>";
 		};
@@ -187,12 +188,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		055F5B461ACB029E00B0B500 /* TindergramTests */ = {
+		055F5B461ACB029E00B0B500 /* LuvCurTests */ = {
 			isa = PBXGroup;
 			children = (
-				055F5B491ACB029E00B0B500 /* TindergramTests.swift */,
+				055F5B491ACB029E00B0B500 /* LuvCurTests.swift */,
 				055F5B471ACB029E00B0B500 /* Supporting Files */,
 			);
+			name = LuvCurTests;
 			path = TindergramTests;
 			sourceTree = "<group>";
 		};
@@ -269,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		055F5B2D1ACB029D00B0B500 /* Tindergram */ = {
+		055F5B2D1ACB029D00B0B500 /* LuvCur */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 055F5B4D1ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "Tindergram" */;
+			buildConfigurationList = 055F5B4D1ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "LuvCur" */;
 			buildPhases = (
 				3433E0F0478F992085B6F965 /* Check Pods Manifest.lock */,
 				055F5B2A1ACB029D00B0B500 /* Sources */,
@@ -283,14 +285,14 @@
 			);
 			dependencies = (
 			);
-			name = Tindergram;
+			name = LuvCur;
 			productName = Tindergram;
-			productReference = 055F5B2E1ACB029D00B0B500 /* Tindergram.app */;
+			productReference = 055F5B2E1ACB029D00B0B500 /* LuvCur.app */;
 			productType = "com.apple.product-type.application";
 		};
-		055F5B421ACB029E00B0B500 /* TindergramTests */ = {
+		055F5B421ACB029E00B0B500 /* LuvCurTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 055F5B501ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "TindergramTests" */;
+			buildConfigurationList = 055F5B501ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "LuvCurTests" */;
 			buildPhases = (
 				055F5B3F1ACB029E00B0B500 /* Sources */,
 				055F5B401ACB029E00B0B500 /* Frameworks */,
@@ -301,9 +303,9 @@
 			dependencies = (
 				055F5B451ACB029E00B0B500 /* PBXTargetDependency */,
 			);
-			name = TindergramTests;
+			name = LuvCurTests;
 			productName = TindergramTests;
-			productReference = 055F5B431ACB029E00B0B500 /* TindergramTests.xctest */;
+			productReference = 055F5B431ACB029E00B0B500 /* LuvCurTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +327,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 055F5B291ACB029D00B0B500 /* Build configuration list for PBXProject "Tindergram" */;
+			buildConfigurationList = 055F5B291ACB029D00B0B500 /* Build configuration list for PBXProject "LuvCur" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -338,8 +340,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				055F5B2D1ACB029D00B0B500 /* Tindergram */,
-				055F5B421ACB029E00B0B500 /* TindergramTests */,
+				055F5B2D1ACB029D00B0B500 /* LuvCur */,
+				055F5B421ACB029E00B0B500 /* LuvCurTests */,
 			);
 		};
 /* End PBXProject section */
@@ -423,7 +425,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				055F5B4A1ACB029E00B0B500 /* TindergramTests.swift in Sources */,
+				055F5B4A1ACB029E00B0B500 /* LuvCurTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +434,7 @@
 /* Begin PBXTargetDependency section */
 		055F5B451ACB029E00B0B500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 055F5B2D1ACB029D00B0B500 /* Tindergram */;
+			target = 055F5B2D1ACB029D00B0B500 /* LuvCur */;
 			targetProxy = 055F5B441ACB029E00B0B500 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -548,7 +550,7 @@
 				);
 				INFOPLIST_FILE = Tindergram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LuvCur;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tindergram/Bridging-Header.h";
 			};
 			name = Debug;
@@ -565,7 +567,7 @@
 				);
 				INFOPLIST_FILE = Tindergram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LuvCur;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tindergram/Bridging-Header.h";
 			};
 			name = Release;
@@ -584,7 +586,7 @@
 				);
 				INFOPLIST_FILE = TindergramTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LuvCurTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tindergram.app/Tindergram";
 			};
 			name = Debug;
@@ -599,7 +601,7 @@
 				);
 				INFOPLIST_FILE = TindergramTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LuvCurTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tindergram.app/Tindergram";
 			};
 			name = Release;
@@ -607,7 +609,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		055F5B291ACB029D00B0B500 /* Build configuration list for PBXProject "Tindergram" */ = {
+		055F5B291ACB029D00B0B500 /* Build configuration list for PBXProject "LuvCur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				055F5B4B1ACB029E00B0B500 /* Debug */,
@@ -616,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		055F5B4D1ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "Tindergram" */ = {
+		055F5B4D1ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "LuvCur" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				055F5B4E1ACB029E00B0B500 /* Debug */,
@@ -625,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		055F5B501ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "TindergramTests" */ = {
+		055F5B501ACB029E00B0B500 /* Build configuration list for PBXNativeTarget "LuvCurTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				055F5B511ACB029E00B0B500 /* Debug */,

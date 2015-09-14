@@ -1,10 +1,3 @@
-//
-//  MatchesTableViewController.swift
-//  Tindergram
-//
-//  Created by thomas on 4/21/15.
-//  Copyright (c) 2015 thomas. All rights reserved.
-//
 
 import UIKit
 

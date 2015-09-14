@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "055F5B2D1ACB029D00B0B500"
-               BuildableName = "Tindergram.app"
-               BlueprintName = "Tindergram"
-               ReferencedContainer = "container:Tindergram.xcodeproj">
+               BuildableName = "LuvCur.app"
+               BlueprintName = "LuvCur"
+               ReferencedContainer = "container:LuvCur.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "055F5B421ACB029E00B0B500"
-               BuildableName = "TindergramTests.xctest"
-               BlueprintName = "TindergramTests"
-               ReferencedContainer = "container:Tindergram.xcodeproj">
+               BuildableName = "LuvCurTests.xctest"
+               BlueprintName = "LuvCurTests"
+               ReferencedContainer = "container:LuvCur.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "055F5B421ACB029E00B0B500"
-               BuildableName = "TindergramTests.xctest"
-               BlueprintName = "TindergramTests"
-               ReferencedContainer = "container:Tindergram.xcodeproj">
+               BuildableName = "LuvCurTests.xctest"
+               BlueprintName = "LuvCurTests"
+               ReferencedContainer = "container:LuvCur.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "055F5B2D1ACB029D00B0B500"
-            BuildableName = "Tindergram.app"
-            BlueprintName = "Tindergram"
-            ReferencedContainer = "container:Tindergram.xcodeproj">
+            BuildableName = "LuvCur.app"
+            BlueprintName = "LuvCur"
+            ReferencedContainer = "container:LuvCur.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "055F5B2D1ACB029D00B0B500"
-            BuildableName = "Tindergram.app"
-            BlueprintName = "Tindergram"
-            ReferencedContainer = "container:Tindergram.xcodeproj">
+            BuildableName = "LuvCur.app"
+            BlueprintName = "LuvCur"
+            ReferencedContainer = "container:LuvCur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "055F5B2D1ACB029D00B0B500"
-            BuildableName = "Tindergram.app"
-            BlueprintName = "Tindergram"
-            ReferencedContainer = "container:Tindergram.xcodeproj">
+            BuildableName = "LuvCur.app"
+            BlueprintName = "LuvCur"
+            ReferencedContainer = "container:LuvCur.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

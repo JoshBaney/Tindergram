@@ -1,15 +1,9 @@
-//
-//  TindergramTests.swift
-//  TindergramTests
-//
-//  Created by thomas on 3/31/15.
-//  Copyright (c) 2015 thomas. All rights reserved.
-//
+
 
 import UIKit
 import XCTest
 
-class TindergramTests: XCTestCase {
+class LuvCurTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

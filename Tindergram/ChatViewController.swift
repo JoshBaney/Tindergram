@@ -1,10 +1,3 @@
-//
-//  ChatViewController.swift
-//  Tindergram
-//
-//  Created by thomas on 4/22/15.
-//  Copyright (c) 2015 thomas. All rights reserved.
-//
 
 import Foundation
 
