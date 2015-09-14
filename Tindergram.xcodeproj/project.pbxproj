@@ -317,6 +317,7 @@
 				TargetAttributes = {
 					055F5B2D1ACB029D00B0B500 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = K8HU92W3ZM;
 					};
 					055F5B421ACB029E00B0B500 = {
 						CreatedOnToolsVersion = 6.2;
@@ -540,6 +541,7 @@
 			baseConfigurationReference = 3444F4F3EB79DD61290DE72B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tindergram",
@@ -556,6 +558,7 @@
 			baseConfigurationReference = AC0DA32EEC34CEA16F615EC2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tindergram",
